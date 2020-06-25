@@ -2,7 +2,7 @@
     p.setup = function(){
       p.createCanvas(400, 400);
       p.background(0);
-      p.fill(255);
+      p.fill(255,0,0);
       p.ellipse(p.width/2, p.height/2, p.width/3, p.height/3);
     }
   };
